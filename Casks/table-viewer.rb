@@ -1,8 +1,8 @@
 # Homebrew cask for the standalone Table Viewer macOS app. The release workflow
 # in jbearak/table-viewer owns version and sha256 updates.
 cask "table-viewer" do
-  version "0.12.1"
-  sha256 "0ee1a9e7b6ee2fbfe2f3a19fd5b18c6a05e7a308e1bd5bb059a8d8b5f5f70476"
+  version "0.13.0"
+  sha256 "736cb207d5b29e6b43d1590189cdb6b054ef7fa855a0be9393553195446a2f84"
 
   url "https://github.com/jbearak/table-viewer/releases/download/v#{version}/table-viewer-#{version}-arm64.dmg",
       verified: "github.com/jbearak/table-viewer/"
